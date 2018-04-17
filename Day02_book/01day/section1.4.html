@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>单元测试-执行 | &lt;center&gt;软件测试分类&lt;/center&gt;</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../01day/section1.5.html" />
+    
+    
+    <link rel="prev" href="../01day/section1.3.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.4"
+        data-chapter-title="单元测试-执行"
+        data-filepath="01day/section1.4.md"
+        data-basepath=".."
+        data-revision="Mon Mar 05 2018 21:48:41 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        回顾测试理论基础
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01day/index.html">
+            
+                
+                    <a href="../01day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        单元测试基础知识
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01day/section1.1.html">
+            
+                
+                    <a href="../01day/section1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        什么是单元测试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01day/section1.2.html">
+            
+                
+                    <a href="../01day/section1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        单元测试流程、测试计划
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01day/section1.3.html">
+            
+                
+                    <a href="../01day/section1.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        测试策略设计、实现
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="01day/section1.4.html">
+            
+                
+                    <a href="../01day/section1.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        单元测试-执行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="01day/section1.5.html">
+            
+                
+                    <a href="../01day/section1.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        HTML报告生成
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >&lt;center&gt;软件测试分类&lt;/center&gt;</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="14-&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6267;&#x884C;"><center>1.4 &#x5355;&#x5143;&#x6D4B;&#x8BD5;-&#x6267;&#x884C;</center></h1>
+<hr>
+<h2 id="&#x76EE;&#x6807;">&#x76EE;&#x6807;</h2>
+<pre><code>1. &#x56DE;&#x987E;UnitTest&#x6846;&#x67B6;&#x4F7F;&#x7528;
+2. &#x57FA;&#x4E8E;UnitTest&#x6D4B;&#x8BD5;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;
+3. &#x5728;UnitTest&#x6846;&#x67B6;&#x4E2D;&#x4F7F;&#x7528;&#x6570;&#x636E;&#x5206;&#x79BB;
+</code></pre><hr>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6267;&#x884C;&#xFF1F;">&#x4EC0;&#x4E48;&#x662F;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6267;&#x884C;&#xFF1F;</h2>
+<pre><code>&#x6982;&#x5FF5;&#xFF1A;&#x901A;&#x8FC7;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x5BF9;&#x8981;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x7684;&#x5B9E;&#x8DF5;&#x8FC7;&#x7A0B;
+</code></pre><hr>
+<h2 id="1-&#x7EC3;&#x4E60;1">1. &#x7EC3;&#x4E60;1</h2>
+<pre><code>1. &#x901A;&#x8FC7;Python&#x8BED;&#x8A00;&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x8FD0;&#x7B97;&#x7684;&#x7C7B;(Calc)&#xFF0C;&#x7C7B;&#x4E2D;&#x5305;&#x542B;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#xFF1A;
+
+    1) add(self,a,b) &#x8FD4;&#x56DE;a+b&#x4E4B;&#x548C;
+    2) sub(self,a,c) &#x8FD4;&#x56DE;a-c&#x4E4B;&#x5DEE;
+
+&#x63D0;&#x793A;&#xFF1A;&#x901A;&#x8FC7;&#x7EC3;&#x4E60;1&#xFF0C;&#x6211;&#x4EEC;&#x5148;&#x7B80;&#x5355;&#x590D;&#x4E60;&#x4E0B;UnitTest&#x6846;&#x67B6;&#x7684;&#x4F7F;&#x7528;
+</code></pre><h3 id="11-&#x7EC3;&#x4E60;1-&#x6B65;&#x9AA4;&#x5206;&#x6790;">1.1 &#x7EC3;&#x4E60;1 &#x6B65;&#x9AA4;&#x5206;&#x6790;</h3>
+<pre><code>1. &#x65B0;&#x5EFA;Calc&#x7C7B;
+2. &#x5728;Calc&#x7C7B;&#x4E2D;&#x65B0;&#x5EFA;add&#x51FD;&#x6570;
+3. &#x5728;Calc&#x7C7B;&#x4E2D;&#x65B0;&#x5EFA;sub&#x51FD;&#x6570;
+4. &#x8C03;&#x7528;&#x5BF9;&#x8C61;&#x4E2D;&#x65B9;&#x6CD5;
+</code></pre><h3 id="12-&#x7EC3;&#x4E60;1-&#x5355;&#x5143;&#x6D4B;&#x8BD5;">1.2 &#x7EC3;&#x4E60;1 &#x5355;&#x5143;&#x6D4B;&#x8BD5;</h3>
+<pre><code>1. &#x5BFC;&#x5305; UnitTest &#x3001;Calc&#x7C7B;
+2. &#x65B0;&#x5EFA;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x7C7B; (&#x96C6;&#x6210; unitTest.TestCase)
+3. &#x65B0;&#x5EFA;testAdd()&#x51FD;&#x6570;
+4. &#x65B0;&#x5EFA;testSub()&#x51FD;&#x6570;
+5. &#x6267;&#x884C;&#x6D4B;&#x8BD5;
+</code></pre><h3 id="13-&#x603B;&#x7ED3;">1.3 &#x603B;&#x7ED3;</h3>
+<pre><code>1. &#x5BFC;&#x5305;
+2. setUp &#x51FD;&#x6570;&#x4F5C;&#x7528;
+3. tearDown &#x51FD;&#x6570;&#x4F5C;&#x7528;
+4. &#x65AD;&#x8A00;
+5. &#x8FD0;&#x884C;&#x6D4B;&#x8BD5;&#x51FD;&#x6570;
+</code></pre><h3 id="14-&#x95EE;&#x9898;">1.4 &#x95EE;&#x9898;</h3>
+<pre><code>1. &#x7EC3;&#x4E60;1&#x6211;&#x4EEC;&#x6570;&#x636E;&#x76F4;&#x63A5;&#x5199;&#x5165;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x6570;&#x91CF;&#x5E9E;&#x5927;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x9891;&#x7E41;&#x6539;&#x52A8;&#x6570;&#x636E;&#x6216;&#x590D;&#x5236;&#x5197;&#x4F59;&#x4EE3;&#x7801;&#x8FDB;&#x884C;&#x5B9E;&#x73B0;&#x6570;&#x636E;&#x6D4B;&#x8BD5;&#x76EE;&#x7684;&#x3002;
+2. &#x505A;&#x4E0D;&#x5230;&#x6570;&#x636E;&#x5206;&#x79BB;(&#x4EE3;&#x7801;&#x548C;&#x6570;&#x636E;&#x5206;&#x5F00;)&#xFF0C;&#x4E0D;&#x4FBF;&#x7EF4;&#x62A4;&#xFF1B;
+</code></pre><hr>
+<h2 id="&#x53C2;&#x6570;&#x5316;">&#x53C2;&#x6570;&#x5316;</h2>
+<pre><code>&#x6982;&#x5FF5;&#xFF1A;&#x6839;&#x636E;&#x9700;&#x6C42;&#x52A8;&#x6001;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x5E76;&#x8FDB;&#x884C;&#x8D4B;&#x503C;&#x7684;&#x8FC7;&#x7A0B;
+</code></pre><h2 id="2-&#x53C2;&#x6570;&#x5316;&#x65B9;&#x5F0F;">2. &#x53C2;&#x6570;&#x5316;-&#x65B9;&#x5F0F;</h2>
+<pre><code>1. XML&#x683C;&#x5F0F;&#xFF08;1&#xFF09;
+3. CSV&#x683C;&#x5F0F;&#xFF08;2&#xFF09;
+2. JSON&#x4E32; &#xFF08;3&#xFF09;
+4. TXT&#x6587;&#x672C;&#xFF08;4&#xFF09;
+
+&#x63D0;&#x793A;&#xFF1A;&#x62EC;&#x53F7;&#x5185;&#x4E3A;&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x4F18;&#x5148;&#x7EA7;&#xFF0C;&#x4ECE;&#x5C0F;&#x5230;&#x5927;;1-2&#x4E3A;&#x6269;&#x5C55;&#x4E86;&#x89E3;&#xFF0C;3-4&#x5EFA;&#x8BAE;&#x91CD;&#x70B9;&#x4E86;&#x89E3;     
+</code></pre><hr>
+<h2 id="3-xml&#x662F;&#x4EC0;&#x4E48;&#xFF1F;">3. XML&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h2>
+<pre><code>&#x6982;&#x5FF5;&#xFF1A;XML&#x662F;&#x4E00;&#x79CD;&#x6807;&#x8BB0;&#x8BED;&#x53E5;&#xFF0C;&#x5F88;&#x7C7B;&#x4F3C;HTML&#x6807;&#x8BB0;&#x8BED;&#x8A00;&#xFF1B;&#x540E;&#x7F00; .xml
+</code></pre><h3 id="31-xml&#x4E0E;html&#x533A;&#x522B;&#xFF1F;">3.1 XML&#x4E0E;HTML&#x533A;&#x522B;&#xFF1F;</h3>
+<pre><code>XML&#x662F;&#x4F20;&#x8F93;&#x548C;&#x5B58;&#x50A8;&#x6570;&#x636E;&#xFF0C;&#x7126;&#x70B9;&#x5728;&#x6570;&#x636E;&#xFF1B;HTML&#x662F;&#x663E;&#x793A;&#x6570;&#x636E;&#xFF0C;&#x7126;&#x70B9;&#x5728;&#x5916;&#x89C2;&#xFF1B;
+</code></pre><h3 id="32-xml&#x683C;&#x5F0F;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;">3.2 XML&#x683C;&#x5F0F;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h3>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;book category=&quot;&#x9762;&#x6388;&quot;&gt;
+      &lt;title&gt;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&lt;/title&gt; 
+      &lt;author&gt;XST&lt;/author&gt; 
+      &lt;year&gt;2008&lt;/year&gt; 
+      &lt;price&gt;39.95&lt;/price&gt; 
+&lt;/book&gt;
+
+1. &#x5FC5;&#x987B;&#x6709;XML&#x58F0;&#x660E;&#x8BED;&#x53E5;&#xFF1A;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+2. &#x5FC5;&#x987B;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x6839;&#x5143;&#x7D20;&#xFF0C;&#x5982;&#xFF1A;&lt;book&gt;
+3. &#x6807;&#x7B7E;&#x5927;&#x5C0F;&#x5199;&#x654F;&#x611F;
+4. &#x5C5E;&#x6027;&#x503C;&#x7528;&#x53CC;&#x5F15;&#x53F7;
+5. &#x6807;&#x7B7E;&#x6210;&#x5BF9;
+6. &#x5143;&#x7D20;&#x6B63;&#x786E;&#x5D4C;&#x5957;
+7. &#x6807;&#x7B7E;&#x540D;&#x53EF;&#x968F;&#x610F;&#x547D;&#x540D;,&#x4F46;&#x6709;&#x4EE5;&#x4E0B;&#x9650;&#x5236;
+    1) &#x4E0D;&#x80FD;&#x4EE5;&#x6570;&#x5B57;&#x6216;&#x8005;&#x6807;&#x70B9;&#x7B26;&#x53F7;&#x5F00;&#x59CB;&#x53C2;
+    2&#xFF09;&#x4E0D;&#x80FD;&#x4EE5;&#x5B57;&#x7B26; &#x201C;xml&#x201D;&#xFF08;&#x6216;&#x8005; XML&#x3001;Xml&#xFF09;&#x5F00;&#x59CB;
+    3) &#x540D;&#x79F0;&#x4E0D;&#x80FD;&#x5305;&#x542B;&#x7A7A;&#x683C;
+</code></pre><h3 id="33-&#x9700;&#x6C42;">3.3 &#x9700;&#x6C42;</h3>
+<pre><code>&#x5BF9;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x4F7F;&#x7528;XML&#x683C;&#x5F0F;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x5316;
+</code></pre><h3 id="34-&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">3.4 &#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h3>
+<pre><code>1. &#x7F16;&#x5199;XML&#x6570;&#x636E;&#x6587;&#x4EF6;
+2. &#x7F16;&#x5199;&#x8BFB;&#x53D6;XML&#x6A21;&#x5757;&#x51FD;&#x6570;
+3. &#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6A21;&#x5757;&#x4E2D;&#x5F15;&#x7528;XML&#x8BFB;&#x53D6;&#x51FD;&#x6570;
+4. &#x6267;&#x884C;
+</code></pre><h3 id="35-&#x91CD;&#x70B9;&#x5206;&#x6790;">3.5 &#x91CD;&#x70B9;&#x5206;&#x6790;</h3>
+<pre><code>1. &#x5BFC;&#x5165;XML&#x5305; from xml.dom import minidom
+2. &#x52A0;&#x8F7D;&#x89E3;&#x6790; dom=minidom.parse(filename)
+3. &#x83B7;&#x53D6;&#x5BF9;&#x8C61;  root=dom.documentElement
+4. &#x83B7;&#x53D6;&#x5B50;&#x5143;&#x7D20; aas=root.getElementsByTagName(one)[0]
+5. &#x83B7;&#x53D6;&#x5B50;&#x5143;&#x7D20;&#x503C; aas.getElementsByTagName(two)[0].firstChild.data
+</code></pre><h3 id="36-xml&#x603B;&#x7ED3;">3.6 XML-&#x603B;&#x7ED3;</h3>
+<pre><code>1. &#x8BFB;&#x53D6;&#x65B9;&#x5F0F;
+2. &#x4EC0;&#x4E48;&#x662F;XML
+3. XML&#x4E0E;HTML&#x533A;&#x522B;
+4. XML&#x7F16;&#x5199;&#x683C;&#x5F0F;
+5. &#x7F3A;&#x70B9;&#xFF1A;&#x4E0D;&#x9002;&#x5408;&#x5927;&#x91CF;&#x53C2;&#x6570;&#x5316;&#x6570;&#x636E;&#x65F6;&#x4F7F;&#x7528;    
+</code></pre><hr>
+<h2 id="4-csv&#x683C;&#x5F0F;">4. CSV&#x683C;&#x5F0F;</h2>
+<pre><code>&#x6982;&#x5FF5;&#xFF1A;CSV&#x662F;&#x4E00;&#x79CD;&#x4EE5;&#x9017;&#x53F7;&#x505A;&#x5206;&#x5272;&#x7684;&#x8868;&#x683C;&#x683C;&#x5F0F;; &#x540E;&#x7F00; .csv
+</code></pre><h3 id="41-&#x4F7F;&#x7528;csv&#x5B9E;&#x73B0;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x53C2;&#x6570;&#x5316;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">4.1 &#x4F7F;&#x7528;CSV&#x5B9E;&#x73B0;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x53C2;&#x6570;&#x5316;-&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h3>
+<pre><code>1. &#x521B;&#x5EFA;CSV&#x6587;&#x4EF6;
+2. &#x7F16;&#x5199;CSV&#x8BFB;&#x53D6;&#x6A21;&#x5757;&#x51FD;&#x6570;
+3. &#x5355;&#x5143;&#x6D4B;&#x8BD5;-&#x5F15;&#x7528;CSV&#x8BFB;&#x53D6;&#x51FD;&#x6570;
+4. &#x6267;&#x884C;
+</code></pre><h3 id="42-&#x91CD;&#x70B9;&#x5206;&#x6790;">4.2 &#x91CD;&#x70B9;&#x5206;&#x6790;</h3>
+<pre><code>1. &#x5BFC;&#x5305; import csv
+2. &#x6253;&#x5F00;csv&#x6587;&#x4EF6; lines=csv.reader(open(&apos;../DataXML/&#x4E09;&#x89D2;&#x5F62;.csv&apos;,&apos;r&apos;,encoding=&apos;utf-8&apos;))
+</code></pre><h3 id="43-csv&#x603B;&#x7ED3;">4.3 CSV-&#x603B;&#x7ED3;</h3>
+<pre><code>1. &#x8BFB;&#x53D6;&#x65B9;&#x5F0F;
+2. &#x751F;&#x6210;CSV&#x6587;&#x4EF6;&#x65B9;&#x5F0F;
+3. &#x7F16;&#x7801;
+</code></pre><hr>
+<h2 id="5-&#x4EC0;&#x4E48;&#x662F;json&#xFF1F;">5. &#x4EC0;&#x4E48;&#x662F;JSON&#xFF1F;</h2>
+<pre><code>&#x6982;&#x5FF5;&#xFF1A;&#x4E00;&#x79CD;&#x8F7B;&#x91CF;&#x7EA7;&#x6570;&#x636E;&#x4EA4;&#x6362;&#x683C;&#x5F0F;&#xFF1B;&#x540E;&#x7F00;&#x540D; .json
+&#x63D0;&#x793A;&#xFF1A;
+&#x901A;&#x8FC7;&#x63A5;&#x53E3;&#x6D4B;&#x8BD5;&#x9636;&#x6BB5;&#x5B66;&#x4E60;&#xFF0C;&#x6211;&#x4EEC;&#x77E5;&#x9053;JSON&#x4E3A;&#x63A5;&#x53E3;&#x4F20;&#x9012;&#x6570;&#x636E;&#x89C4;&#x8303;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x6709;&#x5FC5;&#x8981;&#x5BF9;&#x5982;&#x4F55;&#x83B7;&#x53D6;JSON&#x6570;&#x636E;&#x505A;&#x4E2A;&#x4E86;&#x89E3;&#xFF1B;   
+</code></pre><h3 id="51-json&#x683C;&#x5F0F;">5.1 JSON&#x683C;&#x5F0F;</h3>
+<pre><code>&#x683C;&#x5F0F;&#xFF1A;{&quot;name&quot;:&quot;&#x5F20;&#x4E09;&quot;,&quot;age&quot;:28}
+&#x63D0;&#x793A;&#xFF1A;&#x7531;&#x952E;&#x503C;&#x5BF9;&#x7EC4;&#x6210;,&#x5065;&#x540D;&#x548C;&#x503C;&#x4E4B;&#x95F4;&#x4F7F;&#x7528;&#x5206;&#x53F7;(:)&#x5206;&#x5272;&#xFF0C;&#x591A;&#x4E2A;&#x952E;&#x503C;&#x5BF9;&#x4E4B;&#x95F4;&#x4F7F;&#x7528;&#x9017;&#x53F7;(,)&#x5206;&#x5272;
+</code></pre><h3 id="52-&#x4F7F;&#x7528;json&#x5B9E;&#x73B0;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x53C2;&#x6570;&#x5316;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">5.2 &#x4F7F;&#x7528;JSON&#x5B9E;&#x73B0;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x53C2;&#x6570;&#x5316;-&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h3>
+<pre><code>1. &#x7F16;&#x5199;JSON&#x6587;&#x4EF6;
+2. &#x7F16;&#x5199;JSON&#x8BFB;&#x53D6;&#x6A21;&#x5757;&#x51FD;&#x6570;
+3. &#x5355;&#x5143;&#x6D4B;&#x8BD5;-&#x5F15;&#x7528;JSON&#x8BFB;&#x53D6;&#x51FD;&#x6570;
+4. &#x6267;&#x884C;
+</code></pre><h3 id="53-&#x96BE;&#x70B9;&#x5206;&#x6790;">5.3 &#x96BE;&#x70B9;&#x5206;&#x6790;</h3>
+<pre><code>1. &#x5BFC;&#x5165;JSON&#x5305;&#xFF08;import JSON&#xFF09;
+2. &#x6253;&#x5F00;JSON&#x6587;&#x4EF6;&#x5E76;&#x89E3;&#x6790;
+    with open(&apos;../DataXML/&#x4E09;&#x89D2;&#x5F62;.json&apos;,&apos;r&apos;,encoding=&apos;utf-8&apos;) as f:
+        file=json.load(f)
+</code></pre><h3 id="54-json&#x603B;&#x7ED3;">5.4 JSON-&#x603B;&#x7ED3;</h3>
+<pre><code>1. JSON&#x6982;&#x5FF5;
+2. JSON&#x683C;&#x5F0F;
+3. &#x5982;&#x4F55;&#x5BFC;&#x5165;JSON&#x5305;
+4. &#x5982;&#x4F55;&#x52A0;&#x8F7D;JSON
+</code></pre><hr>
+<h2 id="6-txt&#x6587;&#x672C;">6. TXT&#x6587;&#x672C;</h2>
+<pre><code>&#x6982;&#x5FF5;&#xFF1A;&#x4E00;&#x79CD;&#x7EAF;&#x6587;&#x672C;&#x683C;&#x5F0F;; &#x540E;&#x7F00;&#x540D; .txt
+</code></pre><h3 id="61-txt&#x6587;&#x672C;&#x4F18;&#x70B9;&#xFF1A;">6.1 TXT&#x6587;&#x672C;&#x4F18;&#x70B9;&#xFF1A;</h3>
+<pre><code>1. &#x7F16;&#x5199;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x65B9;&#x4FBF;
+2. &#x4F7F;&#x7528;&#x6A21;&#x5757;&#x51FD;&#x6570;&#x8BFB;&#x53D6;&#x65F6;&#x4FBF;&#x6377;
+</code></pre><h3 id="62-&#x4F7F;&#x7528;txt&#x5B9E;&#x73B0;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x53C2;&#x6570;&#x5316;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">6.2 &#x4F7F;&#x7528;TXT&#x5B9E;&#x73B0;&#x4E09;&#x89D2;&#x5F62;&#x6848;&#x4F8B;&#x53C2;&#x6570;&#x5316;-&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h3>
+<pre><code>1. &#x521B;&#x5EFA;txt&#x6587;&#x672C;&#x5E76;&#x5199;&#x5165;&#x6D4B;&#x8BD5;&#x6570;&#x636E;
+2. &#x7F16;&#x5199;&#x8BFB;&#x53D6;txt&#x6A21;&#x5757;&#x51FD;&#x6570;
+3. &#x5355;&#x5143;&#x6D4B;&#x8BD5;-&#x5F15;&#x7528;JSON&#x8BFB;&#x53D6;&#x51FD;&#x6570;
+4. &#x6267;&#x884C;
+</code></pre><h3 id="63-&#x96BE;&#x70B9;&#x5206;&#x6790;">6.3 &#x96BE;&#x70B9;&#x5206;&#x6790;</h3>
+<pre><code>1. &#x5982;&#x4F55;&#x8BFB;&#x53D6;txt&#x6587;&#x672C;&#xFF1F;
+        with open(r&apos;../DataXML/&#x4E09;&#x89D2;&#x5F62;.txt&apos;,&apos;r&apos;,encoding=&apos;utf-8&apos;) as f:
+2. &#x5982;&#x4F55;&#x53BB;&#x9664;&#x884C;&#x5C3E;/n&#x6362;&#x884C;&#x7B26;&#xFF1F;
+        line.strip()
+</code></pre><h3 id="64-txt&#x603B;&#x7ED3;">6.4 TXT&#x603B;&#x7ED3;</h3>
+<pre><code>1. TXT&#x6587;&#x672C;&#x8BFB;&#x53D6;
+2. &#x53BB;&#x9664;&#x884C;&#x5C3E;&#x56DE;&#x8F66;&#x7B26;(/n)    
+</code></pre><hr>
+<h2 id="7-&#x53C2;&#x6570;&#x5316;&#x603B;&#x7ED3;">7. &#x53C2;&#x6570;&#x5316;-&#x603B;&#x7ED3;</h2>
+<pre><code>1. XML
+2. CSV
+3. JSON
+4. TXT
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../01day/section1.3.html" class="navigation navigation-prev " aria-label="Previous page: 测试策略设计、实现"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../01day/section1.5.html" class="navigation navigation-next " aria-label="Next page: HTML报告生成"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
