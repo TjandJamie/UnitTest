@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SJX>
+    <dy>
+        <b1>2</b1>
+        <b2>2</b2>
+        <b3>3</b3>
+        <except>等腰三角形</except>
+    </dy>
+    <dy>
+        <b1>2</b1>
+        <b2>3</b2>
+        <b3>2</b3>
+        <except>等腰三角形</except>
+    </dy>
+    <dy>
+        <b1>3</b1>
+        <b2>2</b2>
+        <b3>2</b3>
+        <except>等腰三角形</except>
+    </dy>
+    <db>
+        <b1>2</b1>
+        <b2>2</b2>
+        <b3>2</b3>
+        <except>等边三角形</except>
+    </db>
+    <pt>
+        <b1>2</b1>
+        <b2>3</b2>
+        <b3>4</b3>
+        <except>普通三角形</except>
+    </pt>
+</SJX>
